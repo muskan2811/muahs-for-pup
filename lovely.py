@@ -8,7 +8,7 @@ st.write("Why so lovely? :ladybug:")
 
 lovey = st.text_input("How much do I love you?")
 
-if lovey == "So much" or "so much":
+if lovey == "So much" or lovey == "so much":
   st.write("Mhmm! So much! x 3000")
   st.write("Soo much")
   st.write("Sooo much")
@@ -17,7 +17,7 @@ if lovey == "So much" or "so much":
   st.write("Soooooo much")
 elif lovey == "":
   st.write("Say something! Anything")
-elif lovey == "Something" or "something" or "anything" or "Anything":
+elif lovey == "Something" or lovey == "something" or lovey == "anything" or lovey == "Anything":
   st.write("Schmuh cutie! Why are you like this? Aise banoge head?")
 else:
   st.write("Nuh uh! WRONG!")
